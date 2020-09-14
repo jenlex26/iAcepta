@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ConfirmationWisepadButtoniPad" customModule="iAcepta" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="oIB-Gs-h5Z" id="b5t-Q7-uTN"/>
+                <outlet property="wisepadButton" destination="8rC-ej-vrs" id="GV2-TO-B5d"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="oIB-Gs-h5Z">
+            <rect key="frame" x="0.0" y="0.0" width="402" height="369"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wisepad_off" translatesAutoresizingMaskIntoConstraints="NO" id="8rC-ej-vrs">
+                    <rect key="frame" x="104.5" y="58" width="193" height="253"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="193" id="UKj-Jk-YuV"/>
+                        <constraint firstAttribute="height" constant="253" id="hs6-kw-aKm"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="8rC-ej-vrs" firstAttribute="centerX" secondItem="tGK-Ee-aT6" secondAttribute="centerX" id="bI3-sm-G60"/>
+                <constraint firstItem="8rC-ej-vrs" firstAttribute="top" secondItem="tGK-Ee-aT6" secondAttribute="top" constant="14" id="jbG-gd-Gb7"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="tGK-Ee-aT6"/>
+            <point key="canvasLocation" x="39.130434782608695" y="45.870535714285715"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="wisepad_off" width="68" height="101"/>
+    </resources>
+</document>

@@ -1,0 +1,226 @@
+/* 
+  Localizable.strings
+  iAcepta
+
+  Created by QUALITY on 6/12/19.
+  Copyright © 2019 Quality & Knowledge. All rights reserved.
+*/
+
+// MARK: Labels Header Generic
+"titleHeaderCancellation" = "Cancelación";
+"titleHeaderReturn" = "Devolución";
+"titleHeaderPayment" = "Pagos";
+
+// MARK: Labels Cancellation
+"numberCard_cancellationText" = "Número de tarjeta";
+"cardExpiration_cancellationText" = "Expiración de tarjeta (mm-aa)";
+"authorizationOfSale_cancellationText" = "Número de autorización de venta";
+"saleAmount_cancellationText" = "Importe venta";
+"email_cancellationText" = "Ingresa email";
+"titleBtnCancellation" = "Cancelar venta";
+"titleBtnReturn" = "Devolver venta";
+
+// MARK: Labels Return
+"error_enter_numAutorization_cancellation" = " • Ingresa el número de autorización";
+"error_enter_amount_cancellation" = " • Ingresa el monto";
+"error_enter_authorizationNumber_cancellation" = " • Ingresa el número de autorización";
+"error_enter_expiration_date" = " • Ingresa la fecha de expiración";
+"error_enter_card_cancellation" = " • Ingresa el número de tarjeta";
+"error_amount_less_zero" = " • El monto no puede ser menor que 0 ";
+
+// MARK: labels ChangePaswd
+"currentPasword" = "Contraseña actual";
+"newPassword" = "Nueva contraseña";
+"repeatNewPassword" = "Repetir nueva contraseña";
+"firstDescriptionPassword" = "La contraseña debe contener. \n 8 caracteres como mínimo \n 1 letra mayúscula \n 1 letra minúscula \n 1 número";
+"secondDescriptionPassword" = "La contraseña NO debe contener. \n Más de 3 caracteres iguales consecutivos \n Más de 2 caracteres secuenciales";
+"thirdDescriptionPassword" = "La contraseña debe de ser diferente a las ultimas 6 usadas";
+"updatePassword_TitleBtn" = "Actualizar contraseña";
+
+// MARK: label Alerts
+"titleAletExpiredPassword" = "Contraseña expirada";
+"bodyAlertExpiredPassword" = "Por seguridad debes actualizar tu contraseña.";
+"titleAlertUserNotFoud" = "Usuario no encontrado";
+"bodyAlertUserNotFound" = "Verifica tu nombre de usuario y contraseña.";
+"titleAlertTemporalPassword" = "Contraseña temporal";
+"bodyAlertTemporalPassword" = "Por seguridad debes actualizar tu contraseña.";
+"titleAlertWithoutConnection" = "Sin conexión";
+"bodyAlertWithoutConnection" = "Revisa tu conexión a internet";
+"titleAlertiAcepta" = "iAcepta";
+"bodyAlertiAcepta" = "Ingresa tu usuario y contraseña";
+"bodyAlertUpdatedPassword" = "Contraseña actualizada";
+"titleBtnAlert_Accept" = "Aceptar";
+
+"body_empety_form" = "Llena correctamente los campos";
+"body_diff_new_password" = "La nueva contraseña no coincide en los dos campos";
+"body_very_password" = "Verifica tu contraseña actual";
+"body_password_update" = "Tu contraseña se actualizo correctamente";
+"body_password_not_secutiry" = "La contraseña no cumple con las politicas de seguridad";
+
+// MARK: Labels transactions
+"validate_amount_transactions" = " • Ingresa el importe";
+"validate_email_transactions" = " • Ingresa el email";
+"title_alert_incomplete_data_transactions" = "Datos incompletos";
+"validate_invalid_email_transactions" = "Email no válido.";
+
+// MARK: labels Alerts Payments
+"titleAlertPayments" = "";
+"bodyAlertPayments" = "Selecciona los meses sin intereses";
+"bodyAlertPaymentsMSI" = "Gira para selecionar MSI";
+
+// MARK: labels Alert Tip
+"titleAlertTip" = "";
+"bodyAlertTip" = "Gira para seleccionar el procentaje de la propina";
+"text_enter_tip_amount" = "Tambien puedes digitar el monto de la propina";
+
+// MARK: Labels cardReaders
+"titleInsertCard" = "Inserta o desliza la tarjeta";
+"titleC" = "Confirma el monto en el lector";
+"titleApproximeInsertSlideCard" = "Aproxime inserte o deslice tarjeta";
+"titleReadingCard" = "Leyendo tarjeta";
+"titleInsertReader" = "Inserta el lector";
+"titlwInsert" = "Conectando con el lector, espera un momento…";
+"titleFinishedReading" = "Lectura finalizada";
+"title_alert_error_cardReaders" = "Error";
+"title_exhaustedTime_aler_cardReaders" = "Tiempo Agotado";
+"title_errorCard_cardReader" = "Error en tarjeta";
+"title_alert_error_chip_cardReader" = "Error en chip";
+"body_alert_invalidaCard_cardReaders" = "Aplicación de tarjeta inválida, tarjeta declinada";
+"body_alert_cardReadingError_cardReader" = "Error en la lectura de tarjeta";
+"body_alert_timeOut_cardReader" = "Se terminó el tiempo de espera, reinicie la transacción";
+"body_alert_tryDifferentCard_cardReader" = "La tarjeta se encuentra bloqueada, intente una tarjeta diferente";
+"body_alert_chipDefective_cardReader" = "El chip se encuentra defectuoso, pruebe deslizando la banda";
+"body_alert_errorDevice_cardReader" = "Error en el dispositivo";
+"title_btn_reread_cardReader" = "Volver a leer";
+"title_alert_batteryLow_cardReader" = "Batería Baja";
+"body_alert_batteryLow_cardReader" = "Conecte el lector a una fuente de alimentación, sino el lector puede presentar problemas";
+"title_alert_error_reader_cardReader" = "Error al leer";
+"title_alert_iccCard" = "Sin Tarjeta ICC";
+"msg_alert_iccCard" = "No se detectó chip en la tarjeta, intente deslizando por banda";
+"title_alert_bandRestriction_cardReader" = "Restricción de banda";
+"msg_alert_bandRestriction_cardReader" = "El comercio no tiene permitida la lectura de banda, inserte chip.";
+"title_alert_chip_cardReader" = "Chip presente";
+"msg_alert_chipCard_cardReader" = "Tarjeta con chip. Por favor inserte chip.";
+"title_alert_readError_cardReader" = "Error de lectura";
+"msg_alert_noInfoCard_cardReader" = "No se obtuvo la suficiente información de la tarjeta, intente nuevamente";
+"body_alert_cardReadingError_iccCardRemoved" = "Tarjeta no insertada, vuelva a iniciar la lectura de la tarjeta.";
+
+// MARK: lbl ConfirmationPayment
+"titleRequestAcceptance" = "Solicita la aceptación del cliente";
+"text_deal" = "Negocio:";
+"text_client" = "Cliente:";
+"text_email" = "Correo:";
+"text_mwi" = "MSI";
+"text_amount" = "Importe:";
+"text_tip" = "Propina:";
+"text_total" = "Total:";
+
+// MARK: lbl PayProcess
+"titlePayProcess" = "¡Operación realizada con éxito!";
+"text_result_PayProcess" = "Aprobada";
+"text_total_PayProcess" = "Total: $";
+"text_authorization_PayProcess" = "Autorización: ";
+"text_authorizationSignature_PayProcess" = "Autorizado con firma electrónica";
+"title_header_sucess_payProcess" = "Pagos";
+"title_header_cancellation_payProcess" = "Cancelación";
+"title_header_rejected_payProcess" = "Devolución";
+
+// MARK: lbl Voucher
+"text_total_voucher" = "Tu total a pagar es de";
+"text_amount_voucher" = "Importe:";
+"text_tip_voucher" = "Propina:";
+"text_deal_voucher" = "Negocio";
+"text_online_sale_voucher" = "Venta en Línea";
+
+"text_aid_voucher" = "AID:";
+"text_arqc_voucher" = "ARQC:";
+"text_card_voucher" = "Tarjeta";
+"text_terminal_voucher" = "Terminal:";
+"text_total_voucher_isReturn" = "El monto de tu devolución es";
+"text_total_voucher_isCancell" = "El monto de tu cancelación es de";
+"text_authorization_voucher" = "Autorización:";
+"text_terms_voucher" = "Me obligo  incondicionalmente a pagar el importe consignado en este comprobante a la orden y en las oficinas de la entidad emisora de la tarjeta cuyo número aparece en el presente, conforme a los términos del contrato celebrado para su uso. Este documento será negociable con instituciones de crédito y sociedades financieras de objeto múltiple reguladas, salvo si la tarjeta presentada como medio de pago es emitida por American Express. Tratándose de tarjetas de débito, manifiesto plena conformidad respecto al cargo por el importe consignado en este comprobante efectuado a la cuenta asociada a la tarjeta de débito presentada como medio de pago, conforme a los términos y condiciones pactadas con la institución de crédito emisora. Expresamente reconozco y acepto que el presente es comprobante electrónico de la operación realizada y tendrá pleno valor probatorio y fuerza legal, en virtud de haber sido autorizado mediante firma estampada de mi puño y letra que aparece aquí digitalizada y será remitido al correo electrónico que señalo para tal efecto.";
+"alert_title_voucher" = "Error a enviar el voucher";
+"alert_msg_voucher" = "Hubo un error en el envío del voucher.¿Desea intentar nuevamente?";
+"alert_retry_btn_voucher" = "Reintentar";
+"alert_later_btn_voucher" = "Más tarde";
+
+// MARK: label Generics
+"txt_continue" = "Continuar";
+"btn_continue" = "Continuar";
+"btn_modify" = "Modificar";
+"btn_cancel" = "Cancelar";
+"btn_understood" = "Entendido";
+
+// MARK: Labels Signature
+"receipt_signature" = "Por favor firma tu comprobante:";
+"btn_continue_sig" = "Continuar";
+"btn_clean_sig" = "Limpiar";
+"lbl_approved_sig" = "Aprobada";
+"lbl_total_sig" = "Total";
+"lbl_authorization_sig" = "Autorización";
+"title_header_payProcess_signature" = "Pagos";
+"title_header_cancellation_signature" = "Cancelación";
+"title_header_rejected_signature" = "Devolución";
+
+
+// MARK: Labels_LoaderAnimation
+"title_header_loaderAnimation" = "Pagos";
+"lbl_msj_loaderAnimation" = "Procesando pago";
+
+// MARK: Labels_CancellationProcess
+"title_payProcess_cancellationProcess" = "¡Operación no realizada!";
+"title_rejected_cancellationProcess" = "Rechazada";
+"title_header_payProcess_cancellationProcess" = "Pagos";
+"title_header_cancellation_cancellationProcess" = "Cancelación";
+"title_header_rejected_cancellationProcess" = "Devolución";
+"btn_continue_cancellationProcess"= "Continuar";
+
+// MARK: Labels_LoaderAnimationProcess
+"title_payProcess_loaderAnimationProcess" = "Procesando pago";
+"title_cancellation_loaderAnimationProcess" = "Procesando cancelación";
+"title_rejected_loaderAnimationProcess" = "Procesando devolución";
+"title_header_payProcess_loaderAnimationProcess" = "Pagos";
+"title_header_cancellation_loaderAnimationProcess" = "Cancelación";
+"title_header_rejected_loaderAnimationProcess" = "Devolución";
+
+// MARK: LoaderAnimationVoucher
+"lbl_title_loaderAnimationVoucher" = "Enviando voucher";
+"title_header_payProcess_loaderAnimationVoucher" = "Pagos";
+"title_header_cancellation_loaderAnimationVoucher" = "Cancelación";
+"title_header_rejected_loaderAnimationVoucher" = "Devolución";
+
+// MARK: MainMenuViewController
+"alert_title_iAcepta_mainMenu" = "iAcepta";
+"alert_message_iAcepta_mainMenu" = "Hay un comprobante de operación pendiente de firma ¿Desea?";
+"alert_btnTitle_sign_mainMenu" = "Firmar";
+"alert_btnTitle_unsigned_mainMenu" = "Sin firma";
+"alert_message_incompleteProcess_mainMenu" = "Un usuario tiene un proceso de pago incompleto. Por favor, ingrese con este usuario y complete el proceso.";
+"alert_message_voucherMustBeSigned_mainMenu" = "Todos los comprobantes de operación deben de contar con la firma del tarjetahabiente, en caso de existir una aclaración por parte de un tarjetahabiente, es necesario comprobar la aceptación de la transacción; le recordamos que de acuerdo a los términos y condiciones establecidos en su contrato, será su responsabilidad la transacción no reconocida cuando el COMPROBANTE DE OPERACIÓN, no cuente con la FIRMA AUTÓGRAFA del TARJETAHABIENTE.";
+
+
+// MARK: TextInformation
+
+//"text_1" = " Una cancelación aplica para ventas que quieres anular realizadas el mismo día. \n\n";
+//"text_2" = " Introduce los datos necesarios para la cancelación, recuerda que todos son mandatorios y no es necesario realizar una lectura de la tarjeta. \n\n";
+//"text_3" = " Da click en Cancelar; \n\n";
+//"text_4"= " Ten a la mano el número de autorización y el monto de la venta, éste se puede consultar en el comprobante de operación digital o en la reporteria que tienes disponible en tu administrador WEB. \n\n";
+//"text_5" = "Centro Telefónico de Servicios de Pago Citibanamex \n\n";
+
+
+// MARK: Labels MasterViewController
+"title_alert_closeSession" = "Cerrar sesión";
+"body_alert_closeSession" = "Si cierras sesión se perderán todos los datos \n ¿Estás seguro?";
+"firtsBtn_alert_closeSession" = "Si";
+"secondBtn_alert_closeSession" = "No";
+
+"title_alert_returnMenu_closeSession" = "Atención";
+"body_alert_returnMenu_closeSession" = "Al cambiar la selección del menú se perderán los datos que has ingresado";
+"firtsBtn_alert_returnMenu_closeSession" = "Ok";
+"secondBtn_alert_returnMenu_closeSession" = "Cancelar";
+
+// MARK: Labels Update Version
+"title_alert_update" = "Actualización";
+"body_alert_update" = "Es necesario actualizar su aplicación.";
+"Btn_update" = "Actualizar";
+

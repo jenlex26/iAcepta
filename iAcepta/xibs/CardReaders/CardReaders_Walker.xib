@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CardReadersWalkerViewController" customModule="iAcepta" customModuleProvider="target">
+            <connections>
+                <outlet property="activityIndicator" destination="R7k-VF-CzB" id="TEo-qb-QYe"/>
+                <outlet property="arrows" destination="8nq-oO-hDO" id="Q6w-wZ-mly"/>
+                <outlet property="card" destination="Fxh-9d-Wby" id="erd-6q-2kX"/>
+                <outlet property="terminal" destination="XKu-gW-D6w" id="yT3-Lf-wKs"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="fpA-RT-lxn">
+            <rect key="frame" x="0.0" y="0.0" width="140" height="195"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="animacion_flechas" translatesAutoresizingMaskIntoConstraints="NO" id="8nq-oO-hDO">
+                    <rect key="frame" x="5" y="98" width="130" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="i5f-o2-a73"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="animation_phone" translatesAutoresizingMaskIntoConstraints="NO" id="ZRQ-fT-L3S">
+                    <rect key="frame" x="45" y="11" width="50" height="88"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="88" id="0j4-C3-tHv"/>
+                        <constraint firstAttribute="width" constant="50" id="X5X-zT-vZ9"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="animation_terminal" translatesAutoresizingMaskIntoConstraints="NO" id="XKu-gW-D6w">
+                    <rect key="frame" x="50.5" y="99" width="39" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="U65-gD-Sk1"/>
+                        <constraint firstAttribute="width" constant="39" id="ebM-G7-hZb"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="animation_card" translatesAutoresizingMaskIntoConstraints="NO" id="Fxh-9d-Wby">
+                    <rect key="frame" x="56.5" y="121" width="27" height="63"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="63" id="6ui-Lz-Ctb"/>
+                        <constraint firstAttribute="width" constant="27" id="m7A-2v-1dC"/>
+                    </constraints>
+                </imageView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="R7k-VF-CzB">
+                    <rect key="frame" x="60" y="45" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="WHP-Df-48k"/>
+                        <constraint firstAttribute="width" constant="20" id="eLF-yI-iiz"/>
+                    </constraints>
+                    <color key="color" red="0.0" green="0.65490196079999996" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                </activityIndicatorView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="R7k-VF-CzB" firstAttribute="centerX" secondItem="ZRQ-fT-L3S" secondAttribute="centerX" id="4Oe-04-iYN"/>
+                <constraint firstItem="8nq-oO-hDO" firstAttribute="leading" secondItem="wjV-gb-9J0" secondAttribute="leading" constant="5" id="4Qw-wc-j39"/>
+                <constraint firstItem="Fxh-9d-Wby" firstAttribute="centerX" secondItem="XKu-gW-D6w" secondAttribute="centerX" id="5sT-yy-6SE"/>
+                <constraint firstItem="wjV-gb-9J0" firstAttribute="trailing" secondItem="8nq-oO-hDO" secondAttribute="trailing" constant="5" id="DmP-e8-Ccl"/>
+                <constraint firstItem="R7k-VF-CzB" firstAttribute="centerY" secondItem="ZRQ-fT-L3S" secondAttribute="centerY" id="Shu-o2-8f5"/>
+                <constraint firstItem="ZRQ-fT-L3S" firstAttribute="top" secondItem="fpA-RT-lxn" secondAttribute="top" constant="11" id="WFn-k2-69w"/>
+                <constraint firstItem="8nq-oO-hDO" firstAttribute="top" secondItem="wjV-gb-9J0" secondAttribute="top" constant="54" id="Ytf-lO-2bF"/>
+                <constraint firstItem="XKu-gW-D6w" firstAttribute="centerX" secondItem="ZRQ-fT-L3S" secondAttribute="centerX" id="bRb-vg-8OC"/>
+                <constraint firstItem="XKu-gW-D6w" firstAttribute="top" secondItem="ZRQ-fT-L3S" secondAttribute="bottom" id="gSW-xW-JpL"/>
+                <constraint firstItem="Fxh-9d-Wby" firstAttribute="top" secondItem="XKu-gW-D6w" secondAttribute="bottom" constant="1" id="i43-Iy-8HO"/>
+                <constraint firstItem="ZRQ-fT-L3S" firstAttribute="centerX" secondItem="wjV-gb-9J0" secondAttribute="centerX" id="zqM-wO-WRy"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="wjV-gb-9J0"/>
+            <point key="canvasLocation" x="169.56521739130437" y="303.01339285714283"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="animacion_flechas" width="182.5" height="40"/>
+        <image name="animation_card" width="27" height="63"/>
+        <image name="animation_phone" width="50" height="88"/>
+        <image name="animation_terminal" width="39" height="21"/>
+    </resources>
+</document>

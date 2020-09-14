@@ -1,0 +1,6 @@
+framework module EvoPaymentAPI {
+  umbrella header "EvoPaymentAPI.h"
+
+  export *
+  module * { export * }
+}

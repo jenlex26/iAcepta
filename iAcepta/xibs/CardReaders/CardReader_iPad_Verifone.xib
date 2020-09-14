@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CardReadersVerifoneViewController" customModule="iAcepta" customModuleProvider="target">
+            <connections>
+                <outlet property="arrowRight" destination="4PP-Rb-nat" id="UCI-wn-gCL"/>
+                <outlet property="arrows" destination="gK2-Rb-40s" id="Hsx-HZ-PKI"/>
+                <outlet property="card" destination="UwR-Vp-H40" id="X9p-WQ-dLM"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="kxA-tf-t0t">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="369"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="animacion_flechas" translatesAutoresizingMaskIntoConstraints="NO" id="gK2-Rb-40s">
+                    <rect key="frame" x="0.0" y="169" width="320" height="111"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="111" id="972-Hd-OLH"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="animation_verifone" translatesAutoresizingMaskIntoConstraints="NO" id="k5b-Sa-Hgg">
+                    <rect key="frame" x="101.5" y="19" width="117" height="177"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="177" id="3YF-Ho-zMu"/>
+                        <constraint firstAttribute="width" constant="117" id="bcX-sk-tqS"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="animation_card" translatesAutoresizingMaskIntoConstraints="NO" id="UwR-Vp-H40">
+                    <rect key="frame" x="115" y="210" width="90" height="140"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="140" id="ER8-qJ-cx7"/>
+                        <constraint firstAttribute="width" constant="90" id="X24-Il-TE6"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="gK2-Rb-40s" firstAttribute="leading" secondItem="kpu-ez-9eU" secondAttribute="leading" id="EpG-kc-chw"/>
+                <constraint firstItem="k5b-Sa-Hgg" firstAttribute="centerX" secondItem="kpu-ez-9eU" secondAttribute="centerX" id="HtN-WG-etJ"/>
+                <constraint firstItem="UwR-Vp-H40" firstAttribute="centerX" secondItem="k5b-Sa-Hgg" secondAttribute="centerX" id="IeS-Nh-ms8"/>
+                <constraint firstItem="UwR-Vp-H40" firstAttribute="top" secondItem="k5b-Sa-Hgg" secondAttribute="bottom" constant="14" id="Jqj-Ff-Z86"/>
+                <constraint firstItem="gK2-Rb-40s" firstAttribute="top" secondItem="k5b-Sa-Hgg" secondAttribute="bottom" constant="-27" id="TpG-7Z-ggt"/>
+                <constraint firstItem="gK2-Rb-40s" firstAttribute="trailing" secondItem="kpu-ez-9eU" secondAttribute="trailing" id="cUP-yh-63Q"/>
+                <constraint firstItem="kpu-ez-9eU" firstAttribute="top" secondItem="k5b-Sa-Hgg" secondAttribute="top" constant="25" id="iVM-4N-ydk"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="kpu-ez-9eU"/>
+            <point key="canvasLocation" x="244.92753623188409" y="244.08482142857142"/>
+        </view>
+        <view contentMode="scaleToFill" id="qxR-di-g6C">
+            <rect key="frame" x="0.0" y="0.0" width="402" height="369"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="animation_phone" translatesAutoresizingMaskIntoConstraints="NO" id="NBk-cf-ogL">
+                    <rect key="frame" x="0.0" y="20" width="117" height="329"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="329" id="heA-p8-t47"/>
+                        <constraint firstAttribute="width" constant="117" id="hlc-Qu-GIl"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YZu-O3-gQI">
+                    <rect key="frame" x="193" y="186.5" width="16" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="16" id="ZD1-yi-RVC"/>
+                        <constraint firstAttribute="height" constant="40" id="fEn-Uj-Q6p"/>
+                    </constraints>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowRight" translatesAutoresizingMaskIntoConstraints="NO" id="4PP-Rb-nat">
+                    <rect key="frame" x="125" y="128.5" width="73" height="112"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="73" id="eYo-MT-Y45"/>
+                        <constraint firstAttribute="height" constant="112" id="rqO-kr-Bah"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="animation_verifone" translatesAutoresizingMaskIntoConstraints="NO" id="rcH-dl-wkO">
+                    <rect key="frame" x="285" y="20" width="117" height="329"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="117" id="ral-Jc-Xrz"/>
+                        <constraint firstAttribute="height" constant="329" id="uIM-aD-jcG"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="YZu-O3-gQI" firstAttribute="centerX" secondItem="b1C-kU-miY" secondAttribute="centerX" id="B65-MO-tuu"/>
+                <constraint firstItem="b1C-kU-miY" firstAttribute="top" secondItem="rcH-dl-wkO" secondAttribute="top" constant="24" id="C14-zD-WEo"/>
+                <constraint firstItem="4PP-Rb-nat" firstAttribute="leading" secondItem="b1C-kU-miY" secondAttribute="leading" constant="125" id="Ch3-DC-CAf"/>
+                <constraint firstItem="YZu-O3-gQI" firstAttribute="centerY" secondItem="b1C-kU-miY" secondAttribute="centerY" id="Ww4-oX-jY1"/>
+                <constraint firstItem="b1C-kU-miY" firstAttribute="trailing" secondItem="rcH-dl-wkO" secondAttribute="trailing" id="dyi-RZ-tmd"/>
+                <constraint firstItem="4PP-Rb-nat" firstAttribute="top" secondItem="b1C-kU-miY" secondAttribute="top" constant="84.5" id="jeN-zz-hBf"/>
+                <constraint firstItem="NBk-cf-ogL" firstAttribute="leading" secondItem="b1C-kU-miY" secondAttribute="leading" id="mxJ-5U-sYp"/>
+                <constraint firstItem="b1C-kU-miY" firstAttribute="top" secondItem="NBk-cf-ogL" secondAttribute="top" constant="24" id="sKb-a9-xXh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="b1C-kU-miY"/>
+            <point key="canvasLocation" x="933.33333333333337" y="244.08482142857142"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="animacion_flechas" width="182.5" height="40"/>
+        <image name="animation_card" width="27" height="63"/>
+        <image name="animation_phone" width="50" height="88"/>
+        <image name="animation_verifone" width="54" height="98"/>
+        <image name="arrowRight" width="31" height="38"/>
+    </resources>
+</document>
